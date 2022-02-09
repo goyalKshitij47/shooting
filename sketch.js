@@ -142,7 +142,7 @@ function handleBubbleCollision(bubbleGroup){
     blast.scale=0.3
     blast.life=20
     bulletGroup.destroyEach()
-    bubbleGroup.destroyEach()
+    //bubbleGroup.destroyEach()
 }
 
 function handleGameover(bubbleGroup){
